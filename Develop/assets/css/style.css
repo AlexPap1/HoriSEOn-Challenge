@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*header style start*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #2589bd;
 }
-/*alt color for 'SEO' in Horiseon*/
+/*Changed hexidecimil notation for color in 'SEO' in Horiseon*/
 
 .header div {
     padding-top: 15px;
@@ -50,7 +50,8 @@ a {
 p {
     font-size: 16px;
 }
-
+/*Header Style End*/
+/*Hero Style Start */
 .hero {
     height: 800px;
     width: 100%;
@@ -189,7 +190,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Hero Style end */
+/*Footer Style Start */
 .footer {
     padding: 30px;
     clear: both;
@@ -200,3 +202,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* Footer Styole End*/
