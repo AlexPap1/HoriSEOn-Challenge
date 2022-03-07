@@ -5,3 +5,4 @@
 # added comments for start/end of each div
 # adjusted copyright to 2022 from 2019
 # added start/end for CSS header / hero / footer
+# moved hero styling css to one section. Was split w/ benfits in between
