@@ -1,3 +1,8 @@
+:root {
+    --blue: #2a607c;
+    --white: #ffffff;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,8 +16,8 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: var(--blue);
+    color: var(--white);
 }
 
 .header h1 {
@@ -23,7 +28,7 @@ body {
 .header h1 .seo {
     color: #2589bd;
 }
-/*Changed hexidecimil notation for color in 'SEO' in Horiseon*/
+/*Changed hexidecimil notation for color in 'SEO' in Horiseon to make more pronounced*/
 
 .header div {
     padding-top: 15px;
@@ -43,7 +48,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -83,7 +88,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .online-reputation-management {
@@ -92,7 +97,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .social-media-marketing {
@@ -101,7 +106,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .search-engine-optimization img {
@@ -145,17 +150,17 @@ p {
 
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .benefit-lead h3 {
